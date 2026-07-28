@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byte burguer - contato</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="topo">Byte burguer</h1>
+
+        <nav>
+            <a href="index.html">cardápio</a>
+            <a href="precos.html">preços</a>
+            <a href="contato.html">contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="reserva">
+            <h2>Faça sua reserva</h2>
+            <p>Preencha os dados abaixo e confirmamos por e-mail.</p>
+
+            <form>
+
+                <p>
+                    <label for="nome">nome:</label>
+                    <input type="text" id="nome" required maxlenght="60">
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" required id="email">
+                </p>
+
+                <p>
+                    <label for="wpp">WhatsApp:</label>
+                    <input type="tel" id="wpp" pattern="[0-9] {11}" placeholder="47999963877">
+                </p>
+
+                <p>
+                    <label for="numeroPessoas">Número de pessoas:</label>
+                    <input type="number" required id="numeroPessoas" min="1" max="20">
+                </p>
+
+                <p>
+                    <label for="data">Data:</label>
+                    <input type="date" required id="data">
+                </p>
+
+                <p>
+                    <label for="mesa">Prefência de Mesa</label>
+                    <select id="mesa">
+                        <option>perto da janela</option>
+                        <option>Área externa</option>
+                        <option>tanto faz</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="obs">Observações:</label>
+                    <textarea id="obs" maxlength="200"></textarea>
+                </p>
+
+                <button>confirmar reserva</button>
+            </form>
+        </section>
+
+        <section id="canais">
+            <h2>Outros canais</h2>
+            <p>
+                siga a gento no 
+                <a href="https:instagram.com" target="_blank" rel="noopener noreferrer">instagram</a>
+            </p>
+            <p>
+                ou mande um email:
+                <a href="mailto:contati@gmail.com.br">contati@gmail.com.br</a>
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>

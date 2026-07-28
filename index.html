@@ -2,88 +2,64 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device=width, initial-scale=1,0">
-    <title>byte burguer - cardápio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byte burguer</title>
 </head>
 
 <body>
-    <h1 id="topo"> 🍔 byte burguer</h1>
-    <a href="#contato">contato</a>
-    <a href="#lanches">lanches</a>
+    <header>
+        <h1 id="topo">Byte burguer</h1>
 
-    <p>
-        A hamburgueria favorita dos
-        <!--temos a tag <b>-->
-        <strong>Devs</strong> em blumenau
-        <!--temos tag <i>-->
-        feita com <em>muito café e código</em>
-    </p>
+        <nav>
+            <a href="index.html">cardápio</a>
+            <a href="precos.html">preços</a>
+            <a href="contato.html">contato</a>
+        </nav>
+    </header>
 
-    <h2>
-        cardápio
-    </h2>
+    <main>
+        <section id="lanches">
+            <h2>Nossos lanches</h2>
+            <ul>
+                <li>
+                    <strong>X-bug</strong> - hamburguer, queijo e bacon
+                </li>
 
-    <!--########################### LANCHES ###################################-->
+                <li>
+                    <strong>x-deploy</strong> - duplo com cheddar e cebola caramelizada
+                </li>
 
-    <h2 id="lanches">lanches</h2>
-    <ul>
-        <li>bug burguer</li>
+                <li>
+                    <strong>Veggie commit</strong> - Burguer de grão-de-bico
+                </li>
+            </ul>
 
-        <br>
+            <h3>Bebidas</h3>
+            <ul>
+                <li>café expreso</li>
+                <li>suco natural</li>
+                <li>refrigerante</li>
+            </ul>
+        </section>
 
-        <ul>
-            <li>
-                queijo
-            </li>
-            <li>
-                presunto
-            </li>
-        </ul>
+        <section id="Como pedir">
+            <h2>como fazer seu pedido</h2>
 
-        <li>big burguer</li>
-    </ul>
+            <ol>
+                <li>escolha seu lanche no cardápio acima</li>
+                <li>faça sua reserva na <a href="contato.html">pagina de contato</a></li>
+                <li>retire o seu pedido em 15 minutos</li>
+            </ol>
+        </section>
+    </main>
 
-    <h2 id="Bebidas">Bebidas</h2>
-    <ul>
-        <li>coca cola</li>
-
-        <li>vinho</li>
-    </ul>
-
-
-<!--########################### ORIENTAÇOES ###################################--> 
-
-    <h2 id="orientaçoes">orientaçoes</h2>
-    <ol>
-        <li>escolha o que você quer comer</li>
-        <li>Nos chame no wats</li>
-    </ol>
-
-    <h2>O que nossos clientes dizem sobre nós</h2>
-    <blockquote>foi o melhor hambuerguer que eu comi tomando banho</blockquote>
-    <p>avaliação <cite> google maps</cite></p>
-
-    <!--colocar imagem e arrumar o tamanho da imagem-->
-    <img src="" height="">
-
-    <!--########################### CONTATO ###################################-->
-    <h2 id="contato">Contato</h2>
-
-    <p>
-        siga a gente no instagram
-        <a href="https://instagram.com" target="_blank" rel="noopener">instagram</a>
-    </p>
-    <p>
-        ou mande um email para gente:
-        <a href="mailto:nathankloppelclear@gmail.com">nathankloppelclear@gmail.com</a>
-    </p>
-
-    <p>
-        ou entre em contato com a gente via
-        <a href="https:/wa.me/5547999963877" target="_blank" rel="nooperner"> watshapp</a>
-        
-    </p>
-
-
+    <footer>
+        <p>
+            <a href="#topo">voltar ao topo</a>
+        </p>
+        <p>2026 Byte Burguer - Blumenau, SC</p>
+    </footer>
 </body>
+
+</html>
