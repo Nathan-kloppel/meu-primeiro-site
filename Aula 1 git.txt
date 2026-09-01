@@ -1,0 +1,42 @@
+git & github
+
+git = Histórico/maquina do tempo
+quem fez oq
+oq foi feito
+quando foi feito
+voltar para a versão anterior
+
+Git = cli (Command line interface) = palavra-chave
+
+gitHub/Gitlab/bitbucket/azure Devops (repositorio)
+
+----------Inicial-----------------------------
+git init = inicializar repositorio
+git remote add origin <link_do_repositorio>
+
+----------dia a dia----------------------------
+git  add <nome_arquivo> = somente 1 arquivo por vez
+git add . = todos os arquivos modificados
+
+git commit -m "<mensagem>" = Levo todos os arquivos que eu adicionei com git add para um 
+"ponto no historico" (lista)
+
+git push = Envia todos os pontos no Historico (lista) PENDENTES
+para a origem GitHub/GitLab/BitBucket/Azure Devops)
+
+git checkout = muda de branch
+git checkout -b <nome_branch> = cria uma nova branch a partir da branch atual e 
+já muda para a branch criada
+
+git pull = pega as alteração da origem da minha branch atual e traz para minha maquina.
+
+git log --online = traz todo historico do meu repositorio e seus commit
+
+git show <id commit> = Mostra todas as alteração daquele commit em especifico.
+
+git restore <nome_arquivo> = Descarta todas as alterações feitas no arquivo.
+
+git restore --staged <nome_arquivo> = reverte o git add.
+
+git status = Mostra todas mudanças ainda não commitadas
+
